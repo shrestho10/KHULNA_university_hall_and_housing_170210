@@ -1,0 +1,922 @@
+<permissions>
+
+	<!-- DISCUSSION CATEGORY Category -->
+	<permission>
+		<id>DISCUSSION_CAT_C</id>
+		<name>DISCUSSION_CAT_C</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_R</id>
+		<name>DISCUSSION_CAT_R</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_U</id>
+		<name>DISCUSSION_CAT_U</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_CAT_D</id>
+		<name>DISCUSSION_CAT_D</name>
+		<category>DISCUSSION CATEGORY</category>
+	</permission>
+
+	<!-- DISCUSSION Category -->
+	<permission>
+		<id>DISCUSSION_C</id>
+		<name>DISCUSSION_C</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_R</id>
+		<name>DISCUSSION_R</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_U</id>
+		<name>DISCUSSION_U</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_D</id>
+		<name>DISCUSSION_D</name>
+		<category>DISCUSSION</category>
+	</permission>
+
+
+    <!-- DISCUSSION_COMMENT Category -->
+	<permission>
+		<id>DISCUSSION_COMMENT_C</id>
+		<name>DISCUSSION_COMMENT_C</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_R</id>
+		<name>DISCUSSION_COMMENT_R</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_U</id>
+		<name>DISCUSSION_COMMENT_U</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<permission>
+		<id>DISCUSSION_COMMENT_D</id>
+		<name>DISCUSSION_COMMENT_D</name>
+		<category>DISCUSSION COMMENT</category>
+	</permission>
+
+	<!-- DISCIPLINE Category -->
+	<permission>
+		<id>DISCIPLINE_C</id>
+		<name>DISCIPLINE_C</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<permission>
+		<id>DISCIPLINE_R</id>
+		<name>DISCIPLINE_R</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<permission>
+		<id>DISCIPLINE_U</id>
+		<name>DISCIPLINE_U</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<permission>
+		<id>DISCIPLINE_D</id>
+		<name>DISCIPLINE_D</name>
+		<category>DISCIPLINE</category>
+	</permission>
+
+	<!--Hall Category -->
+
+	<permission>
+		<id>HALL_C</id>
+		<name>HALL_C</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_R</id>
+		<name>HALL_R</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_U</id>
+		<name>HALL_U</name>
+		<category>HALL</category>
+	</permission>
+
+	<permission>
+		<id>HALL_D</id>
+		<name>HALL_D</name>
+		<category>HALL</category>
+	</permission>
+
+<!-- HOUSING TYPE Category -->
+	<permission>
+		<id>HOUSING_TYPE_C</id>
+		<name>HOUSING_TYPE_C</name>
+		<category>HOUSING TYPE</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_TYPE_R</id>
+		<name>HOUSING_TYPE_R</name>
+		<category>HOUSING TYPE</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_TYPE_U</id>
+		<name>HOUSING_TYPE_U</name>
+		<category>HOUSING TYPE</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_TYPE_D</id>
+		<name>HOUSING_TYPE_D</name>
+		<category>HOUSING TYPE</category>
+	</permission>
+
+	<!--Housing Category -->
+
+	<permission>
+		<id>HOUSING_C</id>
+		<name>HOUSING_C</name>
+		<category>HOUSING</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_R</id>
+		<name>HOUSING_R</name>
+		<category>HOUSING</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_U</id>
+		<name>HOUSING_U</name>
+		<category>HOUSING</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_D</id>
+		<name>HOUSING_D</name>
+		<category>HOUSING</category>
+	</permission>
+
+
+	<permission>
+		<id>HOUSING_M_C</id>
+		<name>HOUSING_M_C</name>
+		<category>HOUSING_M</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_M_R</id>
+		<name>HOUSING_M_R</name>
+		<category>HOUSING_M</category>
+	</permission>
+	<permission>
+		<id>HOUSING_M_U</id>
+		<name>HOUSING_M_U</name>
+		<category>HOUSING_M</category>
+	</permission>
+	<permission>
+		<id>HOUSING_M_D</id>
+		<name>HOUSING_M_D</name>
+		<category>HOUSING_M</category>
+	</permission>
+
+
+	<permission>
+		<id>HOUSING_NEW_C</id>
+		<name>HOUSING_NEW_C</name>
+		<category>HOUSING_NEW</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_NEW_R</id>
+		<name>HOUSING_NEW_R</name>
+		<category>HOUSING_NEW</category>
+	</permission>
+	<permission>
+		<id>HOUSING_NEW_U</id>
+		<name>HOUSING_NEW_U</name>
+		<category>HOUSING_NEW</category>
+	</permission>
+	<permission>
+		<id>HOUSING_NEW_D</id>
+		<name>HOUSING_NEW_D</name>
+		<category>HOUSING_NEW</category>
+	</permission>
+
+<!--Housing Room Category-->
+
+	<permission>
+		<id>HOUSING_ROOM_C</id>
+		<name>HOUSING_ROOM_C</name>
+		<category>HOUSING ROOM</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_R</id>
+		<name>HOUSING_ROOM_R</name>
+		<category>HOUSING ROOM</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_U</id>
+		<name>HOUSING_ROOM_U</name>
+		<category>HOUSING ROOM</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_D</id>
+		<name>HOUSING_ROOM_D</name>
+		<category>HOUSING ROOM</category>
+	</permission>
+
+	<!--Housing Room Assign Category-->
+
+	<permission>
+		<id>HOUSING_ROOM_ASSIGN_C</id>
+		<name>HOUSING_ROOM_ASSIGN_C</name>
+		<category>HOUSING ROOM ASSIGN</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_ASSIGN_R</id>
+		<name>HOUSING_ROOM_ASSIGN_R</name>
+		<category>HOUSING ROOM ASSIGN</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_ASSIGN_U</id>
+		<name>HOUSING_ROOM_ASSIGN_U</name>
+		<category>HOUSING ROOM ASSIGN</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_ROOM_ASSIGN_D</id>
+		<name>HOUSING_ROOM_ASSIGN_D</name>
+		<category>HOUSING ROOM ASSIGN</category>
+	</permission>
+
+	<!--Housing Details Category-->
+
+	<permission>
+		<id>HOUSING_DETAILS_C</id>
+		<name>HOUSING_DETAILS_C</name>
+		<category>HOUSING DETAILS</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_DETAILS_R</id>
+		<name>HOUSING_DETAILS_R</name>
+		<category>HOUSING DETAILS</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_DETAILS_U</id>
+		<name>HOUSING_DETAILS_U</name>
+		<category>HOUSING DETAILS</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_DETAILS_D</id>
+		<name>HOUSING_DETAILS_D</name>
+		<category>HOUSING DETAILS</category>
+	</permission>
+
+	<!--Housing Application Category -->
+
+	<permission>
+		<id>HOUSING_APPLICATION_C</id>
+		<name>HOUSING_APPLICATION_C</name>
+		<category>HOUSING APPLICATION</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_APPLICATION_R</id>
+		<name>HOUSING_APPLICATION_R</name>
+		<category>HOUSING APPLICATION</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_APPLICATION_U</id>
+		<name>HOUSING_APPLICATION_U</name>
+		<category>HOUSING APPLICATION</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_APPLICATION_D</id>
+		<name>HOUSING_APPLICATION_D</name>
+		<category>HOUSING APPLICATION</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_APPLICATION_MANAGE_C</id>
+		<name>HOUSING_APPLICATION_MANAGE_C</name>
+		<category>HOUSING APPLICATION MANAGE</category>
+	</permission>
+
+		<permission>
+		<id>HOUSING_APPLICATION_MANAGE_R</id>
+		<name>HOUSING_APPLICATION_MANAGE_R</name>
+		<category>HOUSING APPLICATION MANAGE</category>
+	</permission>
+
+		<permission>
+		<id>HOUSING_APPLICATION_MANAGE_U</id>
+		<name>HOUSING_APPLICATION_MANAGE_U</name>
+		<category>HOUSING APPLICATION MANAGE</category>
+	</permission>
+
+	<permission>
+		<id>HOUSING_APPLICATION_MANAGE_D</id>
+		<name>HOUSING_APPLICATION_MANAGE_D</name>
+		<category>HOUSING APPLICATION MANAGE</category>
+	</permission>
+
+	<permission>
+		<id>APPLICATION_TEMPLATE_C</id>
+		<name>APPLICATION_TEMPLATE_C</name>
+		<category>APPLICATION TEMPLATE</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_TEMPLATE_R</id>
+		<name>APPLICATION_TEMPLATE_R</name>
+		<category>APPLICATION TEMPLATE</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_TEMPLATE_U</id>
+		<name>APPLICATION_TEMPLATE_U</name>
+		<category>APPLICATION TEMPLATE</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_TEMPLATE_D</id>
+		<name>APPLICATION_TEMPLATE_D</name>
+		<category>APPLICATION TEMPLATE</category>
+	</permission>
+
+	<permission>
+		<id>APPLICATION_FORMAT_C</id>
+		<name>APPLICATION_FORMAT_C</name>
+		<category>APPLICATION FORMAT</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_FORMAT_R</id>
+		<name>APPLICATION_FORMAT_R</name>
+		<category>APPLICATION FORMAT</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_FORMAT_U</id>
+		<name>APPLICATION_FORMAT_U</name>
+		<category>APPLICATION FORMAT</category>
+	</permission>
+		<permission>
+		<id>APPLICATION_FORMAT_D</id>
+		<name>APPLICATION_FORMAT_D</name>
+		<category>APPLICATION FORMAT</category>
+	</permission>
+
+	<!-- PERMISSION Category -->
+	<permission>
+		<id>PERMISSION_C</id>
+		<name>PERMISSION_C</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_R</id>
+		<name>PERMISSION_R</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_U</id>
+		<name>PERMISSION_U</name>
+		<category>PERMISSION</category>
+	</permission>
+
+	<permission>
+		<id>PERMISSION_D</id>
+		<name>PERMISSION_D</name>
+		<category>PERMISSION</category>
+	</permission>
+
+
+	<!-- POSITION Category -->
+	<permission>
+		<id>POSITION_C</id>
+		<name>POSITION_C</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_R</id>
+		<name>POSITION_R</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_U</id>
+		<name>POSITION_U</name>
+		<category>POSITION</category>
+	</permission>
+
+	<permission>
+		<id>POSITION_D</id>
+		<name>POSITION_D</name>
+		<category>POSITION</category>
+	</permission>
+
+
+
+	<!-- ROLE Category -->
+	<permission>
+		<id>ROLE_C</id>
+		<name>ROLE_C</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_R</id>
+		<name>ROLE_R</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_U</id>
+		<name>ROLE_U</name>
+		<category>ROLE</category>
+	</permission>
+
+	<permission>
+		<id>ROLE_D</id>
+		<name>ROLE_D</name>
+		<category>ROLE</category>
+	</permission>
+
+
+	<!-- SCHOOL Category -->
+	<permission>
+		<id>SCHOOL_C</id>
+		<name>SCHOOL_C</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_R</id>
+		<name>SCHOOL_R</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_U</id>
+		<name>SCHOOL_U</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	<permission>
+		<id>SCHOOL_D</id>
+		<name>SCHOOL_D</name>
+		<category>SCHOOL</category>
+	</permission>
+
+	
+	<!-- TERM Category -->
+	<permission>
+		<id>TERM_C</id>
+		<name>TERM_C</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_R</id>
+		<name>TERM_R</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_U</id>
+		<name>TERM_U</name>
+		<category>TERM</category>
+	</permission>
+
+	<permission>
+		<id>TERM_D</id>
+		<name>TERM_D</name>
+		<category>TERM</category>
+	</permission>
+
+
+	<!-- USER Category -->
+	<permission>
+		<id>USER_C</id>
+		<name>USER_C</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_R</id>
+		<name>USER_R</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_U</id>
+		<name>USER_U</name>
+		<category>USER</category>
+	</permission>
+
+	<permission>
+		<id>USER_D</id>
+		<name>USER_D</name>
+		<category>USER</category>
+	</permission>
+
+	<!-- Year Category -->
+	<permission>
+		<id>YEAR_C</id>
+		<name>YEAR_C</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_R</id>
+		<name>YEAR_R</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_U</id>
+		<name>YEAR_U</name>
+		<category>YEAR</category>
+	</permission>
+
+	<permission>
+		<id>YEAR_D</id>
+		<name>YEAR_D</name>
+		<category>YEAR</category>
+	</permission>	
+
+
+
+<!-- NOTICE -->
+
+	<permission>
+		<id>NOTICE_C</id>
+		<name>NOTICE_C</name>
+		<category>NOTICE</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_R</id>
+		<name>NOTICE_R</name>
+		<category>NOTICE</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_U</id>
+		<name>NOTICE_U</name>
+		<category>NOTICE</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_D</id>
+		<name>NOTICE_D</name>
+		<category>NOTICE</category>
+	</permission>
+
+
+
+
+
+	<permission>
+		<id>NOTICE_M_C</id>
+		<name>NOTICE_M_C</name>
+		<category>NOTICE_M</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_M_R</id>
+		<name>NOTICE_M_R</name>
+		<category>NOTICE_M</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_M_U</id>
+		<name>NOTICE_M_U</name>
+		<category>NOTICE_M</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_M_D</id>
+		<name>NOTICE_M_D</name>
+		<category>NOTICE_M</category>
+	</permission>
+
+
+
+
+	<permission>
+		<id>NOTICE_U_C</id>
+		<name>NOTICE_U_C</name>
+		<category>NOTICE_U</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_U_R</id>
+		<name>NOTICE_U_R</name>
+		<category>NOTICE_U</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_U_U</id>
+		<name>NOTICE_U_U</name>
+		<category>NOTICE_U</category>
+	</permission>
+
+	<permission>
+		<id>NOTICE_U_D</id>
+		<name>NOTICE_U_D</name>
+		<category>NOTICE_U</category>
+	</permission>
+
+
+
+	<permission>
+		<id>CREATE_NOTICE_C</id>
+		<name>CREATE_NOTICE_C</name>
+		<category>CREATE NOTICE</category>
+	</permission>
+		<permission>
+		<id>CREATE_NOTICE_R</id>
+		<name>CREATE_NOTICE_R</name>
+		<category>CREATE NOTICE</category>
+	</permission>
+		<permission>
+		<id>CREATE_NOTICE_U</id>
+		<name>CREATE_NOTICE_U</name>
+		<category>CREATE NOTICE</category>
+	</permission>
+		<permission>
+		<id>CREATE_NOTICE_D</id>
+		<name>CREATE_NOTICE_D</name>
+		<category>CREATE NOTICE</category>
+	</permission>
+
+
+
+
+<permission>
+		<id>CREATE_COMPLAIN_C</id>
+		<name>CREATE_COMPLAIN_C</name>
+		<category>CREATE_COMPLAIN</category>
+	</permission>
+
+	<permission>
+		<id>CREATE_COMPLAIN_R</id>
+		<name>CREATE_COMPLAIN_R</name>
+		<category>CREATE_COMPLAIN</category>
+	</permission>
+
+	<permission>
+		<id>CREATE_COMPLAIN_U</id>
+		<name>CREATE_COMPLAIN_U</name>
+		<category>CREATE_COMPLAIN</category>
+	</permission
+	>
+	<permission>
+		<id>CREATE_COMPLAIN_D</id>
+		<name>CREATE_COMPLAIN_D</name>
+		<category>CREATE_COMPLAIN</category>
+	</permission>
+
+
+
+
+
+	<permission>
+		<id>COMPLAIN_M_C</id>
+		<name>COMPLAIN_M_C</name>
+		<category>COMPLAIN_M</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_M_R</id>
+		<name>COMPLAIN_M_R</name>
+		<category>COMPLAIN_M</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_M_U</id>
+		<name>COMPLAIN_M_U</name>
+		<category>COMPLAIN_M</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_M_D</id>
+		<name>COMPLAIN_M_D</name>
+		<category>COMPLAIN_M</category>
+	</permission>
+
+
+
+
+	<permission>
+		<id>COMPLAIN_U_C</id>
+		<name>COMPLAIN_U_C</name>
+		<category>COMPLAIN_U</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_U_R</id>
+		<name>COMPLAIN_U_R</name>
+		<category>COMPLAIN_U</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_U_U</id>
+		<name>COMPLAIN_U_U</name>
+		<category>COMPLAIN_U</category>
+	</permission>
+
+	<permission>
+		<id>COMPLAIN_U_D</id>
+		<name>COMPLAINE_U_D</name>
+		<category>COMPLAIN_U</category>
+	</permission>
+
+
+
+	<permission>
+		<id>APPLY_C</id>
+		<name>APPLY_C</name>
+		<category>APPLY</category>
+	</permission>
+
+	<permission>
+		<id>APPLY_R</id>
+		<name>APPLY_R</name>
+		<category>APPLY</category>
+	</permission>
+
+	<permission>
+		<id>APPLY_U</id>
+		<name>APPLY_U</name>
+		<category>APPLY</category>
+	</permission>
+
+	<permission>
+		<id>APPLY_D</id>
+		<name>APPLY_D</name>
+		<category>APPLY</category>
+	</permission>
+
+
+
+
+	<permission>
+		<id>APPLY_FOR_SEAT_C</id>
+		<name>APPLY_FOR_SEAT_C</name>
+		<category>APPLY_FOR_SEAT</category>
+	</permission>
+
+	<permission>
+		<id>APPLY_FOR_SEAT_R</id>
+		<name>APPLY_FOR_SEAT_R</name>
+		<category>APPLY_FOR_SEAT</category>
+	</permission>
+	<permission>
+		<id>APPLY_FOR_SEAT_U</id>
+		<name>APPLY_FOR_SEAT_U</name>
+		<category>APPLY_FOR_SEAT</category>
+	</permission>
+	<permission>
+		<id>APPLY_FOR_SEAT_D</id>
+		<name>APPLY_FOR_SEAT_D</name>
+		<category>APPLY_FOR_SEAT</category>
+	</permission>
+
+
+
+
+
+	<permission>
+		<id>VIEW_APPLICANTS_C</id>
+		<name>VIEW_APPLICANTS_C</name>
+		<category>VIEW_APPLICANTS</category>
+	</permission>
+
+	<permission>
+		<id>VIEW_APPLICANTS_R</id>
+		<name>VIEW_APPLICANTS_R</name>
+		<category>VIEW_APPLICANTS</category>
+	</permission>
+	<permission>
+		<id>VIEW_APPLICANTS_U</id>
+		<name>VIEW_APPLICANTS_U</name>
+		<category>VIEW_APPLICANTS</category>
+	</permission>
+	<permission>
+		<id>VIEW_APPLICANTS_D</id>
+		<name>VIEW_APPLICANTS_D</name>
+		<category>VIEW_APPLICANTS</category>
+	</permission>
+
+
+	<permission>
+		<id>BLACKLIST_C</id>
+		<name>BLACKLIST_C</name>
+		<category>BLACKLIST</category>
+	</permission>
+
+	<permission>
+		<id>BLACKLIST_R</id>
+		<name>BLACKLIST_R</name>
+		<category>BLACKLIST</category>
+	</permission>
+
+	<permission>
+		<id>BLACKLIST_U</id>
+		<name>BLACKLIST_U</name>
+		<category>BLACKLIST</category>
+	</permission>
+
+	<permission>
+		<id>BLACKLIST_D</id>
+		<name>BLACKLIST_D</name>
+		<category>BLACKLIST</category>
+	</permission>
+
+
+
+
+
+<permission>
+		<id>ISSUE_U_C</id>
+		<name>ISSUE_U_C</name>
+		<category>ISSUE_U</category>
+	</permission>
+
+	<permission>
+		<id>ISSUE_U_R</id>
+		<name>ISSUE_U_R</name>
+		<category>ISSUE_U</category>
+	</permission>
+	<permission>
+		<id>ISSUE_U_U</id>
+		<name>ISSUE_U_U</name>
+		<category>ISSUE_U</category>
+	</permission>
+	<permission>
+		<id>ISSUE_U_D</id>
+		<name>ISSUE_U_D</name>
+		<category>ISSUE_U</category>
+	</permission>
+
+
+
+
+
+	<permission>
+		<id>ISSUE_USER_C</id>
+		<name>ISSUE_USER_C</name>
+		<category>ISSUE_USER</category>
+	</permission>
+
+	<permission>
+		<id>ISSUE_USER_R</id>
+		<name>ISSUE_USER_R</name>
+		<category>ISSUE_USER</category>
+	</permission>
+	<permission>
+		<id>ISSUE_USER_U</id>
+		<name>ISSUE_USER_U</name>
+		<category>ISSUE_USER</category>
+	</permission>
+	<permission>
+		<id>ISSUE_USER_D</id>
+		<name>ISSUE_USER_D</name>
+		<category>ISSUE_USER</category>
+	</permission>
+
+
+
+</permissions>

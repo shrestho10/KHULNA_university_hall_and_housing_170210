@@ -1,0 +1,846 @@
+	<Menus>
+
+<!-- Administration -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Administration</Title>
+		<Permissions>
+			<Permission>USER_C</Permission>
+			<Permission>USER_U</Permission>
+			<Permission>USER_D</Permission>				
+			<Permission>ROLE_C</Permission>
+			<Permission>ROLE_U</Permission>
+			<Permission>ROLE_D</Permission>	
+			<Permission>PERMISSION_C</Permission>
+			<Permission>PERMISSION_U</Permission>
+			<Permission>PERMISSION_D</Permission>
+			<Permission>DISCIPLINE_C</Permission>
+			<Permission>DISCIPLINE_U</Permission>
+			<Permission>DISCIPLINE_D</Permission>
+			<Permission>SCHOOL_C</Permission>
+			<Permission>SCHOOL_U</Permission>
+			<Permission>SCHOOL_D</Permission>
+			<Permission>POSITION_C</Permission>
+			<Permission>POSITION_U</Permission>
+			<Permission>POSITION_D</Permission>						
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Role Related</Title>
+			<Permissions>
+				<Permission>ROLE_C</Permission>
+				<Permission>ROLE_U</Permission>
+				<Permission>ROLE_D</Permission>	
+				<Permission>PERMISSION_C</Permission>
+				<Permission>PERMISSION_U</Permission>
+				<Permission>PERMISSION_D</Permission>															
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Role</Title>
+				<Link>role.php</Link>
+				<Permissions>
+					<Permission>ROLE_C</Permission>
+					<Permission>ROLE_U</Permission>
+					<Permission>ROLE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Role Related</ParentMenu>
+				<Title>Manage Permission</Title>
+				<Link>permission.php</Link>
+				<Permissions>
+					<Permission>PERMISSION_C</Permission>
+					<Permission>PERMISSION_U</Permission>
+					<Permission>PERMISSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+		<Menu>
+			<ParentMenu>Administration</ParentMenu>
+			<Title>Setup Related</Title>
+			<Permissions>
+				<Permission>USER_C</Permission>
+				<Permission>USER_U</Permission>
+				<Permission>USER_D</Permission>	
+				<Permission>DISCIPLINE_C</Permission>
+				<Permission>DISCIPLINE_U</Permission>
+				<Permission>DISCIPLINE_D</Permission>
+				<Permission>SCHOOL_C</Permission>
+				<Permission>SCHOOL_U</Permission>
+				<Permission>SCHOOL_D</Permission>
+				<Permission>POSITION_C</Permission>
+				<Permission>POSITION_U</Permission>
+				<Permission>POSITION_D</Permission>
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage User</Title>
+				<Link>user.php</Link>
+				<Permissions>
+					<Permission>USER_C</Permission>
+					<Permission>USER_U</Permission>
+					<Permission>USER_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Discipline</Title>
+				<Link>discipline.php</Link>
+				<Permissions>
+					<Permission>DISCIPLINE_C</Permission>
+					<Permission>DISCIPLINE_U</Permission>
+					<Permission>DISCIPLINE_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage School</Title>
+				<Link>school.php</Link>
+				<Permissions>
+					<Permission>SCHOOL_C</Permission>
+					<Permission>SCHOOL_U</Permission>
+					<Permission>SCHOOL_D</Permission>
+				</Permissions>
+			</Menu>			
+			<Menu>
+				<ParentMenu>Setup Related</ParentMenu>
+				<Title>Manage Position</Title>
+				<Link>position.php</Link>
+				<Permissions>
+					<Permission>POSITION_C</Permission>
+					<Permission>POSITION_U</Permission>
+					<Permission>POSITION_D</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- User -->
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>User</Title>
+		<Permissions>
+			<Permission>USER_R</Permission>	
+		</Permissions>			
+	</Menu>
+
+
+		<Menu>
+			<ParentMenu>User</ParentMenu>
+			<Title>User Related</Title>
+			<Permissions>
+				<Permission>USER_R</Permission>														
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>User Details</Title>
+				<Link>user_details.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Forgot Password</Title>
+				<Link>forgot_password.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>User Related</ParentMenu>
+				<Title>Search User</Title>
+				<Link>user_search.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+				</Permissions>
+			</Menu>
+
+
+<!-- Student Center -->
+
+	<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Student Center</Title>
+		<Permissions>
+			<Permission>DISCUSSION_C</Permission>
+			<Permission>DISCUSSION_R</Permission>
+			<Permission>DISCUSSION_U</Permission>
+			<Permission>DISCUSSION_D</Permission>												
+			<Permission>DISCUSSION_CAT_C</Permission>
+			<Permission>DISCUSSION_CAT_R</Permission>
+			<Permission>DISCUSSION_CAT_U</Permission>
+			<Permission>DISCUSSION_CAT_D</Permission>												
+		</Permissions>			
+	</Menu>
+
+		<Menu>
+			<ParentMenu>Student Center</ParentMenu>
+			<Title>Discussion Topic</Title>
+			<Permissions>
+				<Permission>DISCUSSION_C</Permission>
+				<Permission>DISCUSSION_R</Permission>
+				<Permission>DISCUSSION_U</Permission>
+				<Permission>DISCUSSION_D</Permission>												
+				<Permission>DISCUSSION_CAT_C</Permission>
+				<Permission>DISCUSSION_CAT_U</Permission>
+				<Permission>DISCUSSION_CAT_D</Permission>
+			</Permissions>
+		</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion Category</Title>
+				<Link>discussion_category.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_CAT_C</Permission>
+					<Permission>DISCUSSION_CAT_U</Permission>
+					<Permission>DISCUSSION_CAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Manage Discussion</Title>
+				<Link>discussion.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Search Discussion</Title>
+				<Link>discussion_search.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Answered Discussion</Title>
+				<Link>discussion_answered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Unanswered Discussion</Title>
+				<Link>discussion_unanswered.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Recent Discussion</Title>
+				<Link>discussion_recent.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Discussion Topic</ParentMenu>
+				<Title>Discussion List</Title>
+				<Link>discussion_list.php</Link>
+				<Permissions>
+					<Permission>DISCUSSION_C</Permission>
+					<Permission>DISCUSSION_R</Permission>
+					<Permission>DISCUSSION_U</Permission>
+					<Permission>DISCUSSION_D</Permission>
+				</Permissions>
+			</Menu>
+
+<!-- Hall -->
+	<!--<Menu>
+		<ParentMenu></ParentMenu>
+		<Title>Hall</Title>
+		<Permissions>
+			<Permission>HALL_C</Permission>
+			<Permission>HALL_U</Permission>
+			<Permission>HALL_D</Permission>				
+		</Permissions>			
+	</Menu>
+		<Menu>
+			<ParentMenu>Hall</ParentMenu>
+			<Title>Hall Related</Title>
+			<Permissions>
+				<Permission>HALL_C</Permission>
+				<Permission>HALL_U</Permission>
+				<Permission>HALL_D</Permission>															
+			</Permissions>
+		</Menu>	
+
+			<Menu>
+				<ParentMenu>Hall Related</ParentMenu>
+				<Title>Manage Hall</Title>
+				<Link>hall.php</Link>
+				<Permissions>
+					<Permission>HALL_C</Permission>
+					<Permission>HALL_U</Permission>
+					<Permission>HALL_D</Permission>
+				</Permissions>
+			</Menu>
+		-->
+
+			<!-- Housing -->
+			<Menu>
+				<ParentMenu></ParentMenu>
+				<Title>Housing</Title>
+				<Permissions>
+					<Permission>HOUSING_C</Permission>
+					<Permission>HOUSING_R</Permission>
+					<Permission>HOUSING_U</Permission>
+					<Permission>HOUSING_D</Permission>
+					
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Housing</ParentMenu>
+				<Title>Housing Related</Title>
+				<Permissions>
+					<Permission>HOUSING_C</Permission>
+					<Permission>HOUSING_R</Permission>
+					<Permission>HOUSING_U</Permission>
+					<Permission>HOUSING_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+			<Menu>
+				<ParentMenu>Housing</ParentMenu>
+				<Title>Complain Related</Title>
+				<Permissions>
+					<Permission>ISSUE_U_C</Permission>
+					<Permission>ISSUE_U_R</Permission>
+					<Permission>ISSUE_U_U</Permission>
+					<Permission>ISSUE_U_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Housing Related</ParentMenu>
+				<Title>Manage Housing Type</Title>
+				<Link>housing_type.php</Link>
+				<Permissions>
+					<Permission>HOUSING_TYPE_C</Permission>
+					<Permission>HOUSING_TYPE_U</Permission>
+					<Permission>HOUSING_TYPE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Housing Related</ParentMenu>
+				<Title>Create Housing</Title>
+				<Link>housing.php</Link>
+				<Permissions>
+					<Permission>HOUSING_M_C</Permission>
+					<Permission>HOUSING_M_R</Permission>
+					<Permission>HOUSING_M_U</Permission>
+					<Permission>HOUSING_M_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Housing Related</ParentMenu>
+				<Title>Manage Housing</Title>
+				<Link>housing_new.php</Link>
+				<Permissions>
+					<Permission>HOUSING_NEW_C</Permission>
+					<Permission>HOUSING_NEW_R</Permission>
+					<Permission>HOUSING_NEW_U</Permission>
+					<Permission>HOUSING_NEW_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+			<Menu>
+				<ParentMenu>Housing Related</ParentMenu>
+				<Title>Search Housing User</Title>
+				<Link>housing_search.php</Link>
+				<Permissions>
+					<Permission>USER_R</Permission>
+					
+				</Permissions>
+			</Menu>
+<Menu>
+
+				<ParentMenu>Complain Related</ParentMenu>
+				<Title>Create Issue</Title>
+				<Link>create_issue.php</Link>
+				<Permissions>
+				
+
+					<Permission>ISSUE_U_C</Permission>
+					<Permission>ISSUE_U_R</Permission>
+					<Permission>ISSUE_U_U</Permission>
+					<Permission>ISSUE_U_D</Permission>
+
+				
+				</Permissions>
+			</Menu>
+			<Menu>
+
+				<ParentMenu>Complain Related</ParentMenu>
+				<Title>View Issue</Title>
+				<Link>view_issue.php</Link>
+				<Permissions>
+				
+					<Permission>ISSUE_U_C</Permission>
+					<Permission>ISSUE_U_R</Permission>
+					<Permission>ISSUE_U_U</Permission>
+					<Permission>ISSUE_U_D</Permission>
+
+					
+
+				
+				</Permissions>
+			</Menu>
+
+
+
+			<!-- <Menu>
+
+				<ParentMenu>Complain Related</ParentMenu>
+				<Title>Create Complain</Title>
+				<Link>create_complain.php</Link>
+				<Permissions>
+				
+
+					<Permission>CREATE_COMPLAIN_C</Permission>
+					<Permission>CREATE_COMPLAIN_R</Permission>
+					<Permission>CREATE_COMPLAIN_U</Permission>
+					<Permission>CREATE_COMPLAIN_D</Permission>
+
+				
+				</Permissions>
+			</Menu>
+
+
+			 <Menu>
+
+				<ParentMenu>Complain Related</ParentMenu>
+				<Title>View Complain</Title>
+				<Link>view_complain.php</Link>
+				<Permissions>
+				
+					<Permission>COMPLAIN_M_C</Permission>
+					<Permission>COMPLAIN_M_R</Permission>
+					<Permission>COMPLAIN_M_U</Permission>
+					<Permission>COMPLAIN_M_D</Permission>
+					
+
+				
+				</Permissions>
+			</Menu>
+		-->
+
+			
+
+
+
+			<Menu>
+				<ParentMenu></ParentMenu>
+				<Title>Application</Title>
+				<Permissions>
+					<Permission>HOUSING_APPLICATION_C</Permission>
+					<Permission>HOUSING_APPLICATION_R</Permission>
+					<Permission>HOUSING_APPLICATION_U</Permission>
+					<Permission>HOUSING_APPLICATION_D</Permission>
+				</Permissions>
+			</Menu>
+			<!--<Menu>
+				<ParentMenu>Application</ParentMenu>
+				<Title>Issue</Title>
+				<Permissions>
+					<Permission>HOUSING_APPLICATION_C</Permission>
+					<Permission>HOUSING_APPLICATION_R</Permission>
+					<Permission>HOUSING_APPLICATION_U</Permission>
+					<Permission>HOUSING_APPLICATION_D</Permission>
+				</Permissions>
+			</Menu>
+		-->
+
+
+
+			<Menu>
+				<ParentMenu>Application</ParentMenu>
+				<Title>Applications</Title>
+				<Permissions>
+					<Permission>HOUSING_APPLICATION_C</Permission>
+					<Permission>HOUSING_APPLICATION_U</Permission>
+					<Permission>HOUSING_APPLICATION_D</Permission>
+				</Permissions>
+			</Menu>
+		
+		
+			<Menu>
+				<ParentMenu>Applications</ParentMenu>
+				<Title>Manage Application</Title>
+				<Link>housing_application_manage.php</Link>
+				<Permissions>
+					<Permission>HOUSING_APPLICATION_MANAGE_C</Permission>
+					<Permission>HOUSING_APPLICATION_MANAGE_U</Permission>
+					<Permission>HOUSING_APPLICATION_MANAGE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Applications</ParentMenu>
+				<Title>Application Template</Title>
+				<Link>application_template.php</Link>
+				<Permissions>
+					<Permission>APPLICATION_TEMPLATE_C</Permission>
+					<Permission>APPLICATION_TEMPLATE_U</Permission>
+					<Permission>APPLICATION_TEMPLATE_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Applications</ParentMenu>
+				<Title>Application Format</Title>
+				<Link>application_format.php</Link>
+				<Permissions>
+					<Permission>APPLICATION_FORMAT_C</Permission>
+					<Permission>APPLICATION_FORMAT_U</Permission>
+					<Permission>APPLICATION_FORMAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+	
+
+
+<Menu>
+				<ParentMenu>Application</ParentMenu>
+				<Title>Apply</Title>
+				<Permissions>
+					<Permission>APPLY_C</Permission>
+					<Permission>APPLY_R</Permission>
+					<Permission>APPLY_U</Permission>
+					<Permission>APPLY_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+
+			<Menu>
+				<ParentMenu>Apply</ParentMenu>
+				<Title>Apply For Seat</Title>
+				<Link>apply_for_seat.php</Link>
+				<Permissions>
+					<Permission>APPLY_FOR_SEAT_C</Permission>
+					<Permission>APPLY_FOR_SEAT_R</Permission>
+					<Permission>APPLY_FOR_SEAT_U</Permission>
+					<Permission>APPLY_FOR_SEAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>Apply</ParentMenu>
+				<Title>View Applicants</Title>
+				<Link>view_applicants.php</Link>
+				<Permissions>
+					
+					<Permission>VIEW_APPLICANTS_C</Permission>
+					<Permission>VIEW_APPLICANTS_R</Permission>
+					<Permission>VIEW_APPLICANTS_U</Permission>
+					<Permission>VIEW_APPLICANTS_D</Permission>
+				</Permissions>
+			</Menu>
+			<Menu>
+				<ParentMenu>Apply</ParentMenu>
+				<Title>Interview List</Title>
+				<Link>interview_list.php</Link>
+				<Permissions>
+					<Permission>APPLY_FOR_SEAT_C</Permission>
+					<Permission>APPLY_FOR_SEAT_R</Permission>
+					<Permission>APPLY_FOR_SEAT_U</Permission>
+					<Permission>APPLY_FOR_SEAT_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+			<Menu>
+				<ParentMenu>Application</ParentMenu>
+				<Title>Issue</Title>
+				
+				<Permissions>
+					<Permission>ISSUE_USER_C</Permission>
+					<Permission>ISSUE_USER_R</Permission>
+					<Permission>ISSUE_USER_U</Permission>
+					<Permission>ISSUE_USER_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+			<Menu>
+				<ParentMenu>Issue</ParentMenu>
+				<Title>Create Issue</Title>
+				<Link>create_issue_user.php</Link>
+
+				<Permissions>
+					<Permission>ISSUE_USER_C</Permission>
+					<Permission>ISSUE_USER_R</Permission>
+					<Permission>ISSUE_USER_U</Permission>
+					<Permission>ISSUE_USER_D</Permission>
+				</Permissions>
+			</Menu>
+
+
+
+			
+
+             <Menu>
+				<ParentMenu></ParentMenu>
+				<Title>Notice</Title>
+				<Permissions>
+					<Permission>NOTICE_C</Permission>
+					<Permission>NOTICE_R</Permission>
+					<Permission>NOTICE_U</Permission>
+					<Permission>NOTICE_D</Permission>
+
+					<Permission>NOTICE_M_C</Permission>
+					<Permission>NOTICE_M_R</Permission>
+					<Permission>NOTICE_M_U</Permission>
+					<Permission>NOTICE_M_D</Permission>
+
+					<Permission>NOTICE_U_C</Permission>
+					<Permission>NOTICE_U_R</Permission>
+					<Permission>NOTICE_U_U</Permission>
+					<Permission>NOTICE_U_D</Permission>
+				</Permissions>
+			</Menu>
+
+			
+			<Menu>
+				<ParentMenu>NOTICE</ParentMenu>
+				<Title>FOR MANAGER</Title>
+				<Permissions>
+					
+
+					<Permission>NOTICE_M_C</Permission>
+					<Permission>NOTICE_M_R</Permission>
+					<Permission>NOTICE_M_U</Permission>
+					<Permission>NOTICE_M_D</Permission>
+
+				</Permissions>
+			</Menu>
+
+
+           <!--  <Menu>
+				<ParentMenu>FOR MANAGER</ParentMenu>
+				<Title>Manage Notice</Title>
+				<Link>managenotice.php</Link>
+				<Permissions>
+				    <Permission>NOTICE_M_C</Permission>
+					<Permission>NOTICE_M_R</Permission>
+					<Permission>NOTICE_M_U</Permission>
+					<Permission>NOTICE_M_D</Permission>
+				</Permissions>
+			</Menu> -->
+
+
+
+
+
+               <Menu>
+				<ParentMenu>FOR MANAGER</ParentMenu>
+				<Title>Create Notice</Title>
+				<Link>create_notice.php</Link>
+				<Permissions>
+
+
+	            	<Permission>CREATE_NOTICE_C</Permission>
+					<Permission>CREATE_NOTICE_U</Permission>
+					<Permission>CREATE_NOTICE_D</Permission>
+				</Permissions>
+			</Menu>	
+
+
+
+			<!-- <Menu>
+				<ParentMenu>FOR MANAGER</ParentMenu>
+				<Title>View Applicants</Title>
+				<Link>view_applicants_manager.php</Link>
+				<Permissions>
+
+
+	            	<Permission>CREATE_NOTICE_C</Permission>
+					<Permission>CREATE_NOTICE_U</Permission>
+					<Permission>CREATE_NOTICE_D</Permission>
+				</Permissions>
+			</Menu>
+		-->
+
+
+
+
+
+			
+		
+
+
+
+
+
+
+			<Menu>
+				<ParentMenu>NOTICE</ParentMenu>
+				<Title>FOR USER</Title>
+				<Permissions>
+					<Permission>NOTICE_C</Permission>
+					<Permission>NOTICE_R</Permission>
+					<Permission>NOTICE_U</Permission>
+					<Permission>NOTICE_D</Permission>
+
+					<Permission>NOTICE_U_C</Permission>
+					<Permission>NOTICE_U_R</Permission>
+					<Permission>NOTICE_U_U</Permission>
+					<Permission>NOTICE_U_D</Permission>
+
+				</Permissions>
+			</Menu>
+
+
+			 <Menu>
+				<ParentMenu>FOR USER</ParentMenu>
+				<Title>View Notice</Title>
+				<Link>housing_notice_view.php</Link>
+				<Permissions>
+				    <Permission>NOTICE_U_C</Permission>
+					<Permission>NOTICE_U_R</Permission>
+					<Permission>NOTICE_U_U</Permission>
+					<Permission>NOTICE_U_D</Permission>
+
+					
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>FOR USER</ParentMenu>
+				<Title>Search Notice</Title>
+				<Link>search_notice.php</Link>
+				<Permissions>
+					<Permission>NOTICE_M_C</Permission>
+					<Permission>NOTICE_M_R</Permission>
+					<Permission>NOTICE_M_U</Permission>
+					<Permission>NOTICE_M_D</Permission>
+
+					<Permission>NOTICE_U_C</Permission>
+					<Permission>NOTICE_U_R</Permission>
+					<Permission>NOTICE_U_U</Permission>
+					<Permission>NOTICE_U_D</Permission>
+
+				</Permissions>
+			</Menu>
+
+
+
+
+       <Menu>
+				<ParentMenu>Notice</ParentMenu>
+				<Title>BLACKLIST</Title>
+				
+				<Permissions>
+					<Permission>BLACKLIST_C</Permission>
+					<Permission>BLACKLIST_R</Permission>
+					<Permission>BLACKLIST_U</Permission>
+					<Permission>BLACKLIST_D</Permission>
+
+				
+
+				</Permissions>
+			</Menu>
+
+			<Menu>
+				<ParentMenu>BLACKLIST</ParentMenu>
+				<Title>Create</Title>
+				<Link>create_blacklist.php</Link>
+				
+				<Permissions>
+					<Permission>BLACKLIST_C</Permission>
+					<Permission>BLACKLIST_R</Permission>
+					<Permission>BLACKLIST_U</Permission>
+					<Permission>BLACKLIST_D</Permission>
+
+				
+
+				</Permissions>
+			</Menu>
+
+
+
+			<Menu>
+				<ParentMenu>BLACKLIST</ParentMenu>
+				<Title>Search</Title>
+				<Link>search_blacklist.php</Link>
+				
+				<Permissions>
+					<Permission>BLACKLIST_C</Permission>
+					<Permission>BLACKLIST_R</Permission>
+					<Permission>BLACKLIST_U</Permission>
+					<Permission>BLACKLIST_D</Permission>
+
+				
+
+				</Permissions>
+			</Menu>
+
+
+<!--<Menu>
+				<ParentMenu></ParentMenu>
+				<Title>Issue</Title>
+				<Permissions>
+					<Permission>ISSUE_C</Permission>
+					<Permission>ISSUE_R</Permission>
+					<Permission>ISSUE_U</Permission>
+					<Permission>ISSUE_D</Permission>
+
+					
+				</Permissions>
+			</Menu>
+
+		-->
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+</Menus>
